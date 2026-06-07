@@ -1,5 +1,5 @@
-const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'kim-portfolio'
-const ownerName = process.env.GITHUB_REPOSITORY_OWNER ?? 'MnTrinfs'
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'tkim-061203.github.io'
+const ownerName = process.env.GITHUB_REPOSITORY_OWNER ?? 'tkim-061203'
 const isUserOrOrgSite = repoName.endsWith('.github.io')
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isUserOrOrgSite ? '' : `/${repoName}`)
 
